@@ -1,0 +1,19 @@
+import javax.swing.*;
+
+public class information{
+	public static void main(String[],args){
+		String name, rollno;
+		int age;
+		
+		name = JOptionPane.showInputDialog("enter your name");
+		rollno = JOptionPane.showInputDialog("enter your rollno");
+		age = JOptionPane.showInputDialog("enter your age");
+		JOptionPane.showMessageDialog(none, "your information is:" +name+rollno+age);
+		in.close();
+
+}
+
+
+
+
+}
